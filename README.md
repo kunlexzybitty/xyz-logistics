@@ -8,9 +8,9 @@ This nodejs project helps manage and track deliveries.
 3. Install mysql and create a new database
 4. Edit .env file in the project and supply Database details
 5. Open command prompt to the project directory
-6. Run "npm run-script build", this would install all dependencies and create tables in the database
-7. Run "npm test", this would run endpoint tests
-8. If all checks out fine in step 7, Run "npm start" to launch the app
+6. Run "**npm run-script build**", this would install all dependencies and create tables in the database
+7. Run "**npm test**", this would run endpoint tests
+8. If all checks out fine in step 7, Run "**npm start**" to launch the app
 
 Note: All endpoints require Basic Authentication, you may choose to change the values of **TEST_USERNAME,TEST_PASSWORD**
 
