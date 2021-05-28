@@ -12,7 +12,7 @@ This nodejs project helps manage and track deliveries.
 7. Run "npm test", this would run endpoint tests
 8. If all checks out fine in step 7, Run "npm start" to launch the app
 
-Note: All endpoints require Basic Authentication, you may choose to change the values of TEST_USERNAME,TEST_PASSWORD
+Note: All endpoints require Basic Authentication, you may choose to change the values of **TEST_USERNAME,TEST_PASSWORD**
 
 ## Endpoints
 
@@ -22,17 +22,20 @@ Authentication: Basic Auth <br/>
 Body (json): 
 ```json
 {
-                 "PackageName":"[ADD NAME HERE]"
-             }
+   "PackageName":"[ADD NAME HERE]"
+}
 ```             
  > Note: Max length of 200            
 
 - Update Delivery Status <br/>
 PUT /delivery/[ADD REFERENCE HERE] <br/>
 Authentication: Basic Auth <br/>
-Body (json): {
-                 "Status":"[ADD STATUS HERE]"
-             }
+Body (json): 
+```json
+{
+   "Status":"[ADD STATUS HERE]"
+}
+```
 > Note: Status can only be IN_TRANSIT, PICKED_UP, WAREHOUSE, DELIVERED
 
 - Track Delivery <br/>
