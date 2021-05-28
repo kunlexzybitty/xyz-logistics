@@ -16,25 +16,25 @@ Note: All endpoints require Basic Authentication, you may choose to change the v
 
 # Endpoints
 
-- Create New Delivery
-POST /delivery
-Authentication: Basic Auth
+- Create New Delivery <br/>
+POST /delivery <br/>
+Authentication: Basic Auth <br/>
 Body (json): {
                  "PackageName":"[ADD NAME HERE]"
              }
- Note: Max length of 200            
+ > Note: Max length of 200            
 
-- Update Delivery Status
-PUT /delivery/[ADD REFERENCE HERE]
-Authentication: Basic Auth
+- Update Delivery Status <br/>
+PUT /delivery/[ADD REFERENCE HERE] <br/>
+Authentication: Basic Auth <br/>
 Body (json): {
                  "Status":"[ADD STATUS HERE]"
              }
-Note: Status can only be IN_TRANSIT, PICKED_UP, WAREHOUSE, DELIVERED
+> Note: Status can only be IN_TRANSIT, PICKED_UP, WAREHOUSE, DELIVERED
 
-- Track Delivery
-GET /delivery/[ADD REFERENCE HERE]
-Authentication: Basic Auth
+- Track Delivery <br/>
+GET /delivery/[ADD REFERENCE HERE] <br/>
+Authentication: Basic Auth <br/>
 
 
 # Response Codes
